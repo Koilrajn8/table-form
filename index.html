@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Boostrap</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+      integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section class="container mt-3">
+      <button class="btn btn-primary" id="all-emp-btn">All employees</button>
+      <button class="btn btn-primary" id="all-emp-btn">Male employee</button>
+      <button class="btn btn-primary" id="all-emp-btn">Female employee</button>
+
+    <br/>
+    <br/>
+    <form action="">
+      <label for="">Type Employee First Name</label>
+      <input
+      type="search"
+      placeholder="Search here"
+      class="inputField"
+      id="search-box"
+      >
+    </form>
+    <table class="table table-bordered">
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>First Name</th>
+          <th>Last Name</th>
+          <th>Email</th>
+          <th>Gender</th>
+          <th>IP address</th>
+        </tr>
+      </thead>
+      <tbody id="table-body"></tbody> 
+    </table>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
